@@ -1,0 +1,1 @@
+(function($){"use strict";var G5PlusThemeShowcase={init:function(){$('.g5plus-theme-showcase').show();$('.btn-open .theme-view-demo').on('click',function(){$('.g5plus-theme-showcase').toggleClass('changed');});$('.g5plus-theme-showcase .showcase-content').perfectScrollbar();}};$(document).ready(G5PlusThemeShowcase.init);})(jQuery);
